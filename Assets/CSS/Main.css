@@ -1,0 +1,133 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#Holder {
+	width: 980px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 21px;
+	margin-bottom: 21px;
+}
+
+#Header {
+	height: 70px;
+	background-image: url(../Assets/img/logo.png);
+	background-repeat: no-repeat;
+	margin-bottom: 11px;
+}
+
+#Content {
+	height: auto;
+	clear: both;
+	overflow: auto;
+}
+
+#contentLeft {
+	width: 280px;
+	float: left;
+	padding-left: 11px;
+	padding-top: 11px;
+}
+
+#contentLeft a {
+	text-decoration:none;
+	color:#000000;
+}
+
+#contentRight {
+	width: 680px;
+	float: right;
+	border-left: 1px solid #000000;
+}
+
+#contentRight a {
+	text-decoration:none;
+	color:#000000;
+}
+
+#PageHeading {
+	height: auto;
+	padding: 11px;
+	border-bottom:1px solid #000000;
+}
+
+#Footer {
+	border-top: 1px solid #000000;
+	height: 100px;
+}
+
+#Footer a {
+	text-decoration:none;
+	color:#000000;
+	float:left;
+	display:block;
+}
+
+#Footer a:hover {
+	background-color:#F3E9E9;
+	color: #433E3E;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: lighter;
+}
+
+
+.center {
+	margin-left: auto;
+    margin-right: auto;
+}
+
+
+}
+
+@media screen and (max-width:980px){
+	#Holder {
+		width: auto;
+	}
+	
+	#PageHeading {
+		padding: 9px;
+	}
+	
+	#contentLeft {
+		width: 100%;
+		float: left;
+		text-align:center;
+		border-bottom:1px solid #000000;
+		padding-bottom:15px;
+	}
+		
+	#contentRight {
+		width: 100%;
+		float: right;
+		border-left: 1px solid #000000;
+	}
+	
+	#Footer {
+		border-top: 1px solid #000000;
+		height: 50px;
+	}
+		
+	.WidthAuto {
+		width:auto;
+	}
+	
+}
+
+@media screen and (max-width:478px){
+	#Holder {
+		width: auto;
+	}
+		
+	#Footer {
+		border-top: 1px solid #000000;
+		height: 50px;
+	}
+}
+
+
+
