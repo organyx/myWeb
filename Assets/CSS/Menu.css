@@ -4,6 +4,14 @@
 	background-color: rgb(13, 13, 13);
 }
 
+.active {
+	background-color: #666;
+}
+
+.active a {
+	color: blue;
+}
+
 nav ul {
 	margin:0;
 	padding:0;
