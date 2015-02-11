@@ -1,0 +1,40 @@
+/*
+-----------------------------------------------------------------------
+---------------------------- ABOUT SECTION STYLES --------------------
+-----------------------------------------------------------------------
+*/
+#contentMain {
+  float: left;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contentMain img {
+  float: left;
+  display: block;
+  height:200px;
+  width:200px;
+  margin: 10px;
+}
+
+#contentRight {
+  width: 780px;
+}
+
+#contentLeft {
+  width: 180px;
+}
+
+#contentLeft img{
+  height: 150px;
+  width: 100px;
+}
+
+#about	p{
+    font-family:'Open Sans', 'sans-serif';
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:10px;
+    padding-right:10px;
+}
