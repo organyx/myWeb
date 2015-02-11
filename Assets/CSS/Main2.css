@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	background: #eee url(../IMG/1.jpg) center center  fixed ;
 }
 
 #Holder {
@@ -14,7 +15,7 @@ body {
 
 #Header {
 	height: 150px;
-	background-image: url(../img/functional/logo.png);
+	background-image: url(../IMG/functional/logo.png);
 	background-repeat: no-repeat;
 	margin-bottom: 11px;
 }
@@ -449,7 +450,7 @@ section{
 }
 
 #hero1{
-	background: #eee url("http://th07.deviantart.net/fs71/PRE/i/2013/116/1/1/fiend_fatale__comic_for_a_movie____page_1_of_6_by_marvelmania-d631vof.jpg") no-repeat fixed center center / cover;
+	background: #eee url("http://bgfons.com/upload/paper_texture1289.jpg") no-repeat fixed center center / cover;
 	height: 100%;
 	-webkit-animation: move 21s ease-in-out;
 	-moz-animation: move 21s ease-in-out;
@@ -457,7 +458,16 @@ section{
 }
 
 #hero2{
-	background: #eee url("http://fc00.deviantart.net/fs71/f/2011/319/3/0/wolverine_comic_page_2_by_amparanstudio-d4gbmtw.jpg") center center no-repeat fixed;
+	background: #eee url("http://fc01.deviantart.net/fs48/i/2009/206/2/f/Old_Paper_Texture_by_BaB_Jane.jpg") center center no-repeat fixed;
+	background-size: cover;
+	height: 100%;width:100%;
+	-webkit-animation: move 21s ease-in-out;
+	-moz-animation: move 21s ease-in-out;
+	animation: move 21s ease-in-out;
+}
+
+#hero3{
+	background: #eee url("http://fc06.deviantart.net/fs28/i/2008/126/4/7/Grunge_v_by_struckdumb.jpg") center center no-repeat fixed;
 	background-size: cover;
 	height: 100%;width:100%;
 	-webkit-animation: move 21s ease-in-out;
