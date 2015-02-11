@@ -14,12 +14,10 @@
       });
 
   jQuery('.skillbar').each(function(){
-    jQuery(this).find('.skillbar-bar').animate({
+    jQuery(this).find('.skillbar-bar').delay(1000).animate({
       width:jQuery(this).attr('data-percent')
     },2000);
   });
 
 
 });
-
-
