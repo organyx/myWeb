@@ -48,7 +48,9 @@ body {
 }
 
 #contentRight {
-	width: 780px;
+	width: 680px;
+	float: right;
+	border-left: 1px solid #000000;
 }
 
 #contentRight a {
@@ -170,9 +172,10 @@ h1,h2,h3,h4,h5,h6 {
 */
 #a {
 	float: left;
-	width: 90%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	border-bottom:1px solid #000;
 }
 
 #a img {
@@ -184,11 +187,16 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #Right {
-	width: 780px;
+	width: 760px;
+	float: right;
+	border-left: 1px solid #000000;
 }
 
 #Left {
 	width: 180px;
+	float: left;
+	padding-left: 11px;
+	padding-top: 11px;
 }
 
 #Left img{
@@ -214,7 +222,7 @@ h1,h2,h3,h4,h5,h6 {
 	float:left;
 	margin-left:auto;
 	margin-right:auto;
-	width:950px;
+	width:100%;
 }
 
 #contact td{
