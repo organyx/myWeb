@@ -440,39 +440,61 @@ h1,h2,h3,h4,h5,h6 {
 -----------------------------------------------------------------------
 */
 
-.parallax {
-	perspective: 1px;
-	height: 100vh;
-	overflow-x: hidden;
-	overflow-y: auto;
-}
-.parallax__layer {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-}
-.parallax__layer--base {
-	transform: translateZ(0);
-}
-.parallax__layer--back {
-	transform: translateZ(-1px) scale(2);
+section{
+	height: 100%;
 }
 
-.parallax__layer--deep {
-	transform: translateZ(-2px) scale(3);
+.hero .inner{
+	background: rgba(0, 0, 0, 0.035) /*url("http://th00.deviantart.net/fs71/PRE/f/2011/094/d/a/drawing_grid_by_blossomhillstables-d3d70y5.png")*/url("http://tenthtin.com/host-img/random/effect_2.png");
 }
 
-.parallax__group {
-	position: relative;
-	height: 100vh;
-	transform-style: preserve-3d;
+#hero1{
+	background: #eee url("http://th07.deviantart.net/fs71/PRE/i/2013/116/1/1/fiend_fatale__comic_for_a_movie____page_1_of_6_by_marvelmania-d631vof.jpg") no-repeat fixed center center / cover;
+	height: 100%;
+	-webkit-animation: move 21s ease-in-out;
+	-moz-animation: move 21s ease-in-out;
+	animation: move 21s ease-in-out;
 }
 
-/*.parallax__group {
-		transform: translate3d(700px, 0, -800px) rotateY(30deg);
-}*/
+#hero2{
+	background: #eee url("http://fc00.deviantart.net/fs71/f/2011/319/3/0/wolverine_comic_page_2_by_amparanstudio-d4gbmtw.jpg") center center no-repeat fixed;
+	background-size: cover;
+	height: 100%;width:100%;
+	-webkit-animation: move 21s ease-in-out;
+	-moz-animation: move 21s ease-in-out;
+	animation: move 21s ease-in-out;
+}
+
+.inner{
+	height: 100%;
+	text-align: center;
+}
+.inner:before{
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -0.25em;
+		/* Adjusts for spacing */
+}
+
+.copy{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.text{
+	padding: 5px;
+	vertical-align: bottom;
+}
+
+.hero h1, .hero p{
+	color: #fff;
+}
+
+.content h1, .content p{
+	color: #333;
+}
 
 /*
 -----------------------------------------------------------------------
