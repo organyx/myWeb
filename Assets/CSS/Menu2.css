@@ -2,13 +2,17 @@
 #NavBar {
 	height: 60px;
 	background-color: rgb(13, 13, 13);
+	z-index: 1;
+}
+
+.container {
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .active {
 	background-color: #666;
-}
-
-.active a {
 	color: blue;
 }
 
@@ -27,6 +31,7 @@ nav ul li {
 	line-height:55px;
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:17px;
+	color:#fff;
 }
 
 nav ul li a {
@@ -36,7 +41,7 @@ nav ul li a {
 
 nav ul li:hover {
 	background-color:rgb(242,242,242);
-
+	color: #000;
 }
 
 nav ul li:hover a{

@@ -1,0 +1,490 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#Holder {
+	width: 980px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 21px;
+	margin-bottom: 21px;
+}
+
+#Header {
+	height: 150px;
+	background-image: url(../img/functional/logo.png);
+	background-repeat: no-repeat;
+	margin-bottom: 11px;
+}
+
+#Content {
+	height: auto;
+	clear: both;
+	overflow: auto;
+}
+
+#contentLeft {
+	width: 280px;
+	float: left;
+	padding-left: 11px;
+	padding-top: 11px;
+}
+
+#contentLeft a {
+	text-decoration:none;
+	color:#000000;
+}
+
+
+
+#contentMain {
+	width:auto;
+	height: auto;
+	padding: 11px;
+	float: left;
+}
+
+#contentRight {
+	width: 780px;
+}
+
+#contentRight a {
+	text-decoration:none;
+	color:#000000;
+}
+
+
+
+.PageHeading {
+	height: auto;
+	padding: 11px;
+	border-bottom:1px solid #000000;
+	margin-bottom:11px;
+}
+
+#Footer {
+	border-top: 1px solid #000000;
+	height: 100px;
+}
+
+#Footer a {
+	text-decoration:none;
+	color:#000000;
+	float:left;
+	display:block;
+}
+
+#social {
+	float:right;
+	display:block;
+}
+
+#copy {
+	float:left;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: lighter;
+}
+
+.scrollup {
+  width: 50px;
+  height: 43px;
+  opacity: 0.3;
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+  display: none;
+  text-indent: -9999px;
+  background: url(../img/functional/arrow76.png) no-repeat;
+}
+
+
+.center {
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.hex1 {
+	width: 0;
+	border-bottom: 25px solid #000;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+}
+
+.hex2 {
+	width: 80px;
+	height: 34px;
+	background-color: #000;
+	padding: 11px 0 0;
+}
+
+.hex3 {
+	width: 0;
+	border-top: 25px solid #000;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+}
+
+.social_hexagon {
+	width: 80px;
+	float: left;
+	margin: 0 20px;
+}
+
+.social_hexagon:hover {
+	opacity: 0.7;
+	filter:alpha(opacity=70);
+}
+
+.social_hexagon .hex1 {
+	border-bottom: 25px solid #d1d1d1;
+}
+
+.social_hexagon .hex2 {
+	background-color: #d1d1d1;
+	position: relative;
+}
+
+.social_hexagon .hex3 {
+	border-top: 25px solid #d1d1d1;
+}
+
+.social_hexagon a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	padding: 5px 0 0 0;
+	text-align: center;
+}
+
+/*
+-----------------------------------------------------------------------
+---------------------------- ABOUT SECTION STYLES --------------------
+-----------------------------------------------------------------------
+*/
+#a {
+	float: left;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#a img {
+	float: left;
+	display: block;
+	height:180px;
+	width:180px;
+	margin: 10px;
+}
+
+#Right {
+	width: 780px;
+}
+
+#Left {
+	width: 180px;
+}
+
+#Left img{
+	height: 150px;
+	width: 120px;
+}
+
+#a	p{
+		font-family:'Open Sans', 'sans-serif';
+		margin-left:auto;
+		margin-right:auto;
+		padding-left:10px;
+		padding-right:10px;
+}
+
+/*
+-----------------------------------------------------------------------
+---------------------------- CONTACT SECTION STYLES --------------------
+-----------------------------------------------------------------------
+*/
+
+#contact {
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+	width:950px;
+}
+
+#contact td{
+	text-align:center;
+}
+
+.styletxtfield {
+	border: 1px solid #666;
+	border-radius:6px;
+	width:200px;
+	height:35px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-left:6px;
+}
+
+.styletxtarea {
+	border: 1px solid #666;
+	border-radius:6px;
+	width:350px;
+	height:100px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-left:6px;
+}
+
+/*
+-----------------------------------------------------------------------
+---------------------------- SERVICES SECTION STYLES --------------------
+-----------------------------------------------------------------------
+*/
+
+.services_block {
+	width: 25%;
+	float: left;
+}
+
+.services_block h3 {
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	padding: 10px 0;
+	margin: 15px 10px 50px 10px;
+}
+
+.services_block p {
+	font-size: 12px;
+	text-align: justify;
+	margin: 10px 10px 30px 10px;
+	display: block;
+	height: 90px;
+}
+
+.icon {
+	text-align: center;
+	display: block;
+}
+
+.services_block a {
+	text-decoration: none;
+	color: #000;
+}
+
+.services_block a:hover{
+	text-decoration: underline;
+}
+
+/*
+-----------------------------------------------------------------------
+---------------------------- SKILLS SECTION STYLES --------------------
+-----------------------------------------------------------------------
+*/
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+.skillbar {
+  font-family: 'Open Sans', 'sans-serif';
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	font-weight:bold;
+	font-size:13px;
+	color:#fff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#444;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+
+/**/
+
+
+
+.half {
+	width: 50%;
+	float: left;
+}
+
+.left {
+	width: 430px;
+	margin: 0 40px 0 10px;
+}
+
+.right {
+	width: 430px;
+	margin: 0 10px 0 40px;
+}
+
+#cloud {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#cloud li {
+    display: inline-block;
+    margin: 2px 10px;
+    border-radius: 2px;
+}
+
+#cloud li:nth-child(4n) {
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #999;
+}
+
+#cloud li:nth-child(8n + 1) {
+    font-size: 0.7em;
+    font-weight: normal;
+    background-color: #165;
+}
+
+#cloud li:nth-child(3n + 0) {
+    font-size: 0.9em;
+    font-weight: normal;
+    background-color: #963;
+}
+
+#cloud li:nth-child(4n + 2) {
+    font-size: 1.2em;
+    font-weight: normal;
+    background-color: #369;
+}
+
+#cloud li:nth-child(6n + 3) {
+    font-size: 1.6em;
+    font-weight: normal;
+    background-color: #619;
+}
+
+#cloud li:nth-child(13n - 12) {
+    font-size: 2em;
+    font-weight: normal;
+    background-color: #933;
+}
+
+
+
+/*
+-----------------------------------------------------------------------
+---------------------------- MOBILE STYLES --------------------
+-----------------------------------------------------------------------
+*/
+
+@media screen and (max-width:980px){
+	#Holder {
+		width: auto;
+	}
+
+	#PageHeading {
+		padding: 9px;
+	}
+
+	#contentLeft {
+		width: 100%;
+		float: left;
+		text-align:center;
+		border-bottom:1px solid #000000;
+		padding-bottom:15px;
+	}
+
+	#contentRight {
+		width: 100%;
+		float: right;
+		border-left: 1px solid #000000;
+	}
+
+	#contentMain {
+		width: 100%;
+	}
+
+	#Footer {
+		border-top: 1px solid #000000;
+		height: 50px;
+	}
+
+	.WidthAuto {
+		width:auto;
+	}
+
+}
+
+@media screen and (max-width:478px){
+	#Holder {
+		width: auto;
+	}
+
+	#Footer {
+		border-top: 1px solid #000000;
+		height: 50px;
+	}
+}
