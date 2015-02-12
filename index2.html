@@ -10,6 +10,31 @@
 <script type="text/javascript" src="Assets/JS/jquery-2.1.3.min.js"></script>
 <script type="text/javascript" src="Assets/JS/custom2.js"></script>
 <script src="Assets/Helpers/mail/contact_form.js"></script>
+
+<!--********************Fancybox******************-->
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="Assets/JS/fancyapps-fancyBox-18d1712/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox main JS and CSS files -->
+<script type="text/javascript" src="Assets/JS/fancyapps-fancyBox-18d1712/source/jquery.fancybox.js?v=2.1.5"></script>
+<link rel="stylesheet" type="text/css" href="Assets/JS/fancyapps-fancyBox-18d1712/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+<!-- Add Button helper (this is optional) -->
+<link rel="stylesheet" type="text/css" href="Assets/JS/fancyapps-fancyBox-18d1712/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+<script type="text/javascript" src="Assets/JS/fancyapps-fancyBox-18d1712/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+<!-- Add Thumbnail helper (this is optional) -->
+<link rel="stylesheet" type="text/css" href="Assets/JS/fancyapps-fancyBox-18d1712/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+<script type="text/javascript" src="Assets/JS/fancyapps-fancyBox-18d1712/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+<!-- Add Media helper (this is optional) -->
+<script type="text/javascript" src="Assets/JS/fancyapps-fancyBox-18d1712/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
+</script>
 <!--
 <link href="Assets/CSS/bootstrap.min.css" rel="stylesheet" type="text/css">
 
@@ -17,32 +42,20 @@
 <script type="text/javascript" src="Assets/JS/jquery-2.1.3.min.js"></script>
 -->
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width"/>
 <title>Main Page</title>
 <div class="link_home"></div>
 </head>
 
 <body>
-  <!--
-  <div class="parallax">
-    <div class="parallax__group">
-      <div class="parallax__layer parallax__layer--back">
-        <img src="Assets/IMG/storm.jpg">
-      </div>
-    </div>
 
-    <div class="parallax__group">
-      <div class="parallax__layer parallax__layer--base">
-        <img src="Assets/IMG/stroopers.jpg">
-      </div>
-    </div>
-  -->
 <div id="Holder">
   <section id="hero3" class="hero">
   <div class="inner">
     <div class="copy">
 
 
-  <div id="Header"><h1><span style="color:red">UNDER CONSTRUCTION<span></h1></div>
+  <div id="Header"><h1><span style="color:red">UNDER CONSTRUCTION</span></h1></div>
   <div id="NavBar">
     <div class="container">
       <nav>
@@ -69,21 +82,20 @@
 
       <div id="services" class="borderBTM">
 
-        <section id="hero1" class="hero">
+        <section class="hero1 hero">
           <div class="inner">
             <div class="copy">
 
 
         <div class="link_services"></div>
+        <br>
         <div class="services_block">
           <div class="icon"><i class="fa fa-picture-o fa-5x"></i></div>
           <h3>Web Design</h3>
-<!--          <p>Fresh. Clean. Live.</p>-->
         </div>
         <div class="services_block">
           <div class="icon"><i class="fa fa-code fa-5x"></i></div>
           <h3>Software Design</h3>
-<!--          <p>Software Design for all your needs.</p>-->
         </div>
         <div class="services_block">
           <div class="icon">
@@ -93,34 +105,28 @@
 
           </div>
           <h3>Responsive Design</h3>
-<!--          <p>Be accessible. Anywhere. To anyone and everyone on any device.</p>-->
         </div>
         <div class="services_block">
           <div class="icon"><i class="fa fa-cogs fa-5x"></i></div>
           <h3>Latest technologies</h3>
-<!--          <p>I love changes and innovation. Therefore i follow the latest news in the world of technologies and apply them to create stunning websites.</p>-->
         </div>
 
 
         <div class="services_block">
           <div class="icon"><i class="fa fa-users fa-5x"></i></div>
           <h3>SEO</h3>
-<!--          <p>Search Engine Optimization helps your website to be found more easy and have higher ratings between others out there.</p>-->
         </div>
         <div class="services_block">
           <div class="icon"><i class="fa fa-terminal fa-5x"></i></div>
           <h3>CMS</h3>
-<!--          <p>Integrating a freshly made design or one of your own into a Content Management System. Addition of modules/plugins and customization.</p>-->
         </div>
         <div class="services_block">
           <div class="icon"><i class="fa fa-check-square-o fa-5x"></i></div>
           <h3>WC3 standarts</h3>
-<!--          <p>The code i write is clean, clear and follows the current web standars of <a href="http://www.w3.org/">W3C (World Wide Web Consortium)</a></p>-->
         </div>
         <div class="services_block">
           <div class="icon"><i class="fa fa-life-ring fa-5x"></i></div>
           <h3>Customer Support</h3>
-<!--          <p>Full support with a smile or administration available after creating something together.</p>-->
         </div>
       </div>
     </div>
@@ -131,7 +137,7 @@
         <div class="PageHeading">
           <h1>Professional Skills</h1>
          </div>
-        <section id="hero1" class="hero">
+        <section class="hero1 hero">
         <div class="inner">
           <div class="copy">
 
@@ -201,7 +207,7 @@
      <div class="PageHeading">
        <h1>Language Skills</h1>
       </div>
-     <section id="hero1" class="hero">
+     <section class="hero1 hero">
      <div class="inner">
        <div class="copy">
 
@@ -239,40 +245,42 @@
                <h1>Knowledge cloud</h1>
               </div>
 
-              <section id="hero1" class="hero">
+              <section class="hero1 hero">
               <div class="inner">
                 <div class="copy">
                <ul id="cloud">
-                   <li>SCRUM</li>
-                   <li>Agile software development</li>
+                   <li>Printed Circuit Board design - schematics and PCB</li>
                    <li>Object Oriented Programming</li>
                    <li>Assembly programming</li>
                    <li>Atmel AVR</li>
-                   <li>Microcontrollers</li>
+                   <li>Capital budgeting</li>
+                   <li>Marketing</li>
+                   <li>SCRUM</li>
+                   <li>Agile software development</li>
                    <li>MicroC/OSII</li>
                    <li>Real Time Programming</li>
                    <li>Real Time Systems and Scheduling</li>
                    <li>Embedded systems</li>
                    <li>Distributed systems</li>
                    <li>Client-Server systems</li>
+                   <li>CORBA (Common Object Request Broker Architecture)</li>
                    <li>Computer architecture</li>
                    <li>Electronics</li>
                    <li>Engineering experimentation</li>
                    <li>Data analysis</li>
                    <li>Report writing</li>
-                   <li>Design patterns</li>
-                   <li>Responsive web layout</li>
-                   <li>Printed Circuit Board design - schematics and PCB</li>
+                   <li>Microcontrollers</li>
                    <li>UML (Unified Modeling Language)</li>
                    <li>Database Design - DDL &amp; DML</li>
                    <li>Database Normalization</li>
                    <li>TCP/UDP protocols</li>
                    <li>Socket programming</li>
-                   <li>Java RMI (Remote Method Invocation)</li>
-                   <li>CORBA (Common Object Request Broker Architecture)</li>
+                   <li>Java RMI</li>
                    <li>IDL (Interface Definition Language)</li>
                    <li>Financial accounting</li>
                    <li>Budgeting</li>
+                   <li>Design patterns</li>
+                   <li>Responsive web layout</li>
                    <li>Management accounting and Balance scorecard</li>
                    <li>Capital budgeting</li>
                    <li>Marketing</li>
@@ -289,21 +297,23 @@
         <div class="PageHeading">
           <h1>About Me</h1>
          </div>
-        <section id="hero1" class="hero">
+        <section class="hero1 hero">
         <div class="inner">
           <div class="copy">
 
 
          <div class="link_about"></div>
           <div id="img">
-            <img src="Assets/IMG/about/avatar.jpg">
-            <img src="Assets/IMG/about/greenhornet.jpg">
-            <img src="Assets/IMG/about/ironman.jpg">
-            <img src="Assets/IMG/about/tron.jpg">
+            <p>
+              <a class="fancybox" data-fancybox-group="button" href="Assets/IMG/about/avatar_b.jpg"><img src="Assets/IMG/about/avatar_s.jpg" alt="pic1"></a>
+              <a class="fancybox" data-fancybox-group="button" href="Assets/IMG/about/greenhornet_b.jpg"><img src="Assets/IMG/about/greenhornet_s.jpg" alt="pic2"></a>
+              <a class="fancybox" data-fancybox-group="button" href="Assets/IMG/about/ironman_b.jpg"><img src="Assets/IMG/about/ironman_s.jpg" alt="pic3"></a>
+              <a class="fancybox" data-fancybox-group="button" href="Assets/IMG/about/tron_b.jpg"><img src="Assets/IMG/about/tron_s.jpg" alt="pic4"></a>
+            </p>
           </div>
           <div id="Left">
             <h2>That's me</h2><br>
-            <img src="Assets/IMG/about/me.jpg">
+            <img src="Assets/IMG/about/me.jpg" alt="myPicture">
           </div>
         <div id="Right">
           <div id="about">
@@ -336,7 +346,7 @@
          <div class="link_contact"></div>
         <div id="mainform">
           <form id="form">
-            <table id="contact">
+            <table class="contact">
 
               <tr><td><p id="returnmessage"></p></td></tr>
               <tr>
