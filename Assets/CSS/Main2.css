@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background: #eee url(../IMG/Wallpapers-room_com___elegant_blue_wallpaper_by_blok5_1920x1200-1920x1080.jpg) center center fixed ;
+
 }
 
 #Holder {
@@ -38,12 +39,13 @@ body {
 	color:#000000;
 }
 
-
-
 #contentMain {
 	width:auto;
 	height: auto;
-	padding: 11px;
+	padding-top: 0px;
+	padding-left: 11px;
+	padding-right: 11px;
+	padding-bottom: 11px;
 	float: left;
 }
 
@@ -62,11 +64,13 @@ body {
 	height: auto;
 	padding: 11px;
 	border-bottom:1px solid #000000;
-	margin-bottom:11px;
+	background-color: rgba(0, 0, 0, 0.6);
+
 }
 
 .PageHeading h1 {
 	font-size:40px;
+	font-family: 'Titillium Web', arial, sans-serif;
 }
 
 #Footer {
@@ -96,14 +100,14 @@ h1,h2,h3,h4,h5,h6 {
 
 .scrollup {
   width: 50px;
-  height: 43px;
+  height: 50px;
   opacity: 0.3;
   position: fixed;
   bottom: 50px;
   right: 100px;
   display: none;
   text-indent: -9999px;
-  background: url(../img/functional/arrow76.png) no-repeat;
+  background: url(../img/functional/round-arrow-up-psd-png.png) no-repeat;
 }
 
 
@@ -172,7 +176,7 @@ h1,h2,h3,h4,h5,h6 {
 ---------------------------- ABOUT SECTION STYLES --------------------
 -----------------------------------------------------------------------
 */
-#a {
+#About {
 	float: left;
 	width: 100%;
 	margin-left: auto;
@@ -180,7 +184,7 @@ h1,h2,h3,h4,h5,h6 {
 	border-bottom:1px solid #000;
 }
 
-#a img {
+#About img {
 	float: left;
 	display: block;
 	height:180px;
@@ -206,7 +210,7 @@ h1,h2,h3,h4,h5,h6 {
 	width: 120px;
 }
 
-#a	p{
+#About	p{
 		font-family:'Open Sans', 'sans-serif';
 		margin-left:auto;
 		margin-right:auto;
