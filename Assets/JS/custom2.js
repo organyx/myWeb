@@ -24,7 +24,7 @@
       $('.nav_services').click(function(){
 
         $('html, body').animate({
-          scrollTop: $(".link_services").offset().top - 100
+          scrollTop: $(".link_services").offset().top - 150
         }, 2000);
 
        });
@@ -32,7 +32,7 @@
       $('.nav_skills').click(function(){
 
         $('html, body').animate({
-          scrollTop: $(".link_skills").offset().top - 100
+          scrollTop: $(".link_skills").offset().top - 180
         }, 2000);
 
        });
@@ -40,7 +40,7 @@
       $('.nav_about').click(function(){
 
         $('html, body').animate({
-          scrollTop: $(".link_about").offset().top - 100
+          scrollTop: $(".link_about").offset().top - 180
         }, 2000);
 
        });
