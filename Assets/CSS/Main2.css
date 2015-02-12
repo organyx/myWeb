@@ -58,13 +58,15 @@ body {
 	color:#000000;
 }
 
-
-
 .PageHeading {
 	height: auto;
 	padding: 11px;
 	border-bottom:1px solid #000000;
 	margin-bottom:11px;
+}
+
+.PageHeading h1{
+	font-size:40px;
 }
 
 #Footer {
@@ -372,6 +374,10 @@ h1,h2,h3,h4,h5,h6 {
 	color:rgba(0, 0, 0, 0.4);
 }
 
+.borderBTM {
+	border-bottom: 1px solid #000;
+}
+
 
 /**/
 
@@ -458,7 +464,7 @@ section{
 }
 
 #hero1{
-	background: #eee url("http://bgfons.com/upload/paper_texture1289.jpg") no-repeat fixed center center / cover;
+	background: #eee url("http://thedigitalyardsale.com/freebies/7-24/grunge15.jpg") no-repeat fixed center center / cover;
 	height: 100%;
 	-webkit-animation: move 21s ease-in-out;
 	-moz-animation: move 21s ease-in-out;
@@ -475,7 +481,7 @@ section{
 }
 
 #hero3{
-	background: #eee url("http://fc06.deviantart.net/fs28/i/2008/126/4/7/Grunge_v_by_struckdumb.jpg") center center no-repeat fixed;
+	background: #eee url("../IMG/fma2.jpg") center center no-repeat fixed;
 	background-size: cover;
 	height: 100%;width:100%;
 	-webkit-animation: move 21s ease-in-out;
