@@ -112,7 +112,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 .center {
-	margin-left: auto;
+		margin-left: auto;
     margin-right: auto;
 }
 
@@ -184,14 +184,6 @@ h1,h2,h3,h4,h5,h6 {
 	border-bottom:1px solid #000;
 }
 
-#About img {
-	float: left;
-	display: block;
-	height:180px;
-	width:180px;
-	margin: 10px;
-}
-
 #Right {
 	width: 760px;
 	float: right;
@@ -210,12 +202,29 @@ h1,h2,h3,h4,h5,h6 {
 	width: 120px;
 }
 
-#About	p{
+#About p{
 		font-family:'Open Sans', 'sans-serif';
 		margin-left:auto;
 		margin-right:auto;
 		padding-left:10px;
 		padding-right:10px;
+}
+
+#img {
+	width: 100%;
+	display:block;
+	float:left;
+}
+
+#img p a {
+	margin:5px;
+}
+
+#img p a img{
+	border: 1px solid #fff;
+	background-color:#fff;
+	padding:4px;
+	width: 20%;
 }
 
 /*
