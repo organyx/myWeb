@@ -396,6 +396,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 .half {
+	margin-top:15px;
 	width: 50%;
 	float: left;
 }
