@@ -190,6 +190,10 @@ h1,h2,h3,h4,h5,h6 {
 	border-left: 1px solid #000000;
 }
 
+#Right p {
+	color: #333;
+}
+
 #Left {
 	width: 180px;
 	float: left;
@@ -197,9 +201,17 @@ h1,h2,h3,h4,h5,h6 {
 	padding-top: 11px;
 }
 
+#Left h2{
+	color:#333;
+}
+
 #Left img{
-	height: 150px;
+	height: auto;
 	width: 120px;
+	border: 1px solid #fff;
+	background-color:#fff;
+	padding:2px;
+	border-radius:60px;
 }
 
 #About p{
