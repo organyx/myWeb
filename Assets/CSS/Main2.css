@@ -65,7 +65,7 @@ body {
 	margin-bottom:11px;
 }
 
-.PageHeading h1{
+.PageHeading h1 {
 	font-size:40px;
 }
 
@@ -225,6 +225,14 @@ h1,h2,h3,h4,h5,h6 {
 	margin-left:auto;
 	margin-right:auto;
 	width:100%;
+}
+
+#contact label,#contact h3 {
+	color: #E4E8F0;
+}
+
+#contact span {
+	color: red;
 }
 
 #contact td{
@@ -517,7 +525,7 @@ section{
 }
 
 .content h1, .content p{
-	color: #333;
+	color: #0A2861;
 }
 
 /*
