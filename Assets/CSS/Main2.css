@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: #eee url(../IMG/1.jpg) center center  fixed ;
+	background: #eee url(../IMG/Wallpapers-room_com___elegant_blue_wallpaper_by_blok5_1920x1200-1920x1080.jpg) center center fixed ;
 }
 
 #Holder {
@@ -472,7 +472,7 @@ section{
 }
 
 #hero1{
-	background: #eee url("http://thedigitalyardsale.com/freebies/7-24/grunge15.jpg") no-repeat fixed center center / cover;
+	background: #eee url(../IMG/brushed-metal-texture.jpg) no-repeat fixed center center / cover;
 	height: 100%;
 	-webkit-animation: move 21s ease-in-out;
 	-moz-animation: move 21s ease-in-out;
@@ -489,7 +489,7 @@ section{
 }
 
 #hero3{
-	background: #eee url("../IMG/fma2.jpg") center center no-repeat fixed;
+	background: #eee url(../IMG/low-poly-texture-19.png) center center no-repeat fixed;
 	background-size: cover;
 	height: 100%;width:100%;
 	-webkit-animation: move 21s ease-in-out;
@@ -525,7 +525,7 @@ section{
 }
 
 .content h1, .content p{
-	color: #0A2861;
+	color: #38703A;
 }
 
 /*
