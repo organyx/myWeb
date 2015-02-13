@@ -36,17 +36,17 @@ if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
 	$mail->SMTPAuth = true;
 
 	//Username to use for SMTP authentication - use full email address for gmail
-	$mail->Username = "aleksandr.beliun@aiesec.net";
+	$mail->Username = "no.reply.at.e3w@gmail.com";
 
 	//Password to use for SMTP authentication
-	$mail->Password = "qvq7ep4vu2";
+	$mail->Password = "eND11vkcB15zcAMJihyz";
 
 	//Set who the message is to be sent from
 	$mail->setFrom($_POST['email1']);
 	//Set the subject line
 	$mail->Subject = $_POST['name1'];
 	//Set who the message is to be sent to
-	$mail->addAddress('organyx92@hotmail.com', 'Me');
+	$mail->addAddress('aleksandr.beliun@gmail.com', 'Me');
 	//Read an HTML message body from an external file, convert referenced images to embedded,
 	//convert HTML into a basic plain-text alternative body
 	//$mail->msgHTML(file_get_contents('../../../index2.html'), dirname(__FILE__));
