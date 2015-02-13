@@ -48,6 +48,7 @@ $(document).ready(function() {
     /**************
         Sticky nav bar
      */
+     if($(window).width > 980){
     $(function() {
         // grab the initial top offset of the navigation
         var sticky_navigation_offset_top = $('#NavBar').offset()
@@ -74,6 +75,7 @@ $(document).ready(function() {
             sticky_navigation();
         });
     });
+  }
     /**************
         Skill bars
      */
