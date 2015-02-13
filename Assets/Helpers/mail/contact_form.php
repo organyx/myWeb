@@ -27,7 +27,7 @@ if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
 	$sendmessage = wordwrap($sendmessage, 70);
 
 	// Send mail by PHP Mail Function
-	mail("aleks@abel.e3w.ru", $subject, $sendmessage, $headers);
+	mail("aleksandr.beliun@gmail.com", $subject, $sendmessage, $headers);
 	echo "Your Query has been received, We will contact you soon.";
 
 } else {

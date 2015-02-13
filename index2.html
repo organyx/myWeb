@@ -14,6 +14,8 @@
 <!--<script type="text/javascript" src="Assets/Helpers/mail2/js/contact_form.js"></script>-->
 <script src="Assets/Helpers/mail/contact_form.js"></script>
 
+<script type="text/javascript" src="Assets/Helpers/dialogbox/dialog_box.js"></script>
+
 <!--********************Fancybox******************-->
 <!-- Add mousewheel plugin (this is optional) -->
 <script type="text/javascript" src="Assets/JS/fancyapps-fancyBox-18d1712/lib/jquery.mousewheel-3.0.6.pack.js"></script>
@@ -338,7 +340,7 @@
          </div>
          <div class="link_contact"></div>
         <div id="mainform">
-          <form id="form" action="javascript:alert('Success!');">
+          <form id="form" action="javascript:showDialog('Success','Your request has been successfully received.','success');">
             <div id="note"></div>
             <div id="fields">
             <table class="contact">
