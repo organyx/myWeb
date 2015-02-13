@@ -11,6 +11,7 @@
 <link href="Assets/CSS/Menu2.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="Assets/JS/jquery-2.1.3.min.js"></script>
 <script type="text/javascript" src="Assets/JS/custom2.js"></script>
+<!--<script type="text/javascript" src="Assets/Helpers/mail2/js/contact_form.js"></script>-->
 <script src="Assets/Helpers/mail/contact_form.js"></script>
 
 <!--********************Fancybox******************-->
@@ -337,7 +338,9 @@
          </div>
          <div class="link_contact"></div>
         <div id="mainform">
-          <form id="form">
+          <form id="form" action="javascript:alert('Success!');">
+            <div id="note"></div>
+            <div id="fields">
             <table class="contact">
 
               <tr><td><p id="returnmessage"></p></td></tr>
@@ -372,6 +375,7 @@
                 <td>&nbsp;</td>
               </tr>
             </table>
+          </div>
           </form>
 
 
