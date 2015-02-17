@@ -57,6 +57,8 @@ $(document).ready(function() {
          document.getElementById("skills").className.replace
          ( /(?:^|\s)off(?!\S)/g , '' );
         };
+
+
         //Icon resize
        if ($window.width() < 768) {
          document.getElementById("fa").className =
@@ -83,6 +85,7 @@ $(document).ready(function() {
     /**************
         Sticky nav bar
      */
+     /*
     $(function() {
       // only on descktop
         if($(window).width() >= 820) {
@@ -111,7 +114,7 @@ $(document).ready(function() {
             sticky_navigation();
         });
       }
-    });
+    });*/
     /**************
         Skill bars
      */
