@@ -117,7 +117,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .center {
 		margin-left:auto;
-		margin-right:auto
+		margin-right:auto;
 }
 
 .hex1 {
@@ -571,7 +571,7 @@ rgba(0,0,0,0.035) url(http://tenthtin.com/host-img/random/effect_2.png);
 }
 
 .copy {
-		display:inline-flex;
+		display:flex;
 		vertical-align:middle;
 }
 
