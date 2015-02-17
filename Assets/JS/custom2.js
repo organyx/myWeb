@@ -42,6 +42,41 @@ $(document).ready(function() {
         }, 2000);
     });
     /**************
+        Icon resize & Disable Skills for mobile
+     */
+    $(function() {
+      var $window = $(window);
+
+      $(window).on('resize', function () {
+
+        //Disable Skills for mobile
+        if ($window.width() < 500) {
+          document.getElementById("skills").className += " off";
+       }else{
+         document.getElementById("skills").className =
+         document.getElementById("skills").className.replace
+         ( /(?:^|\s)off(?!\S)/g , '' );
+        };
+        //Icon resize
+       if ($window.width() < 768) {
+         document.getElementById("fa").className =
+         document.getElementById("fa").className.replace
+         ( /(?:^|\s)fa-5x(?!\S)/g , '' );
+         document.getElementById("fa").className += " fa-2x";
+      }else{
+        document.getElementById("fa").className =
+        document.getElementById("fa").className.replace
+        ( /(?:^|\s)fa-2x(?!\S)/g , '' );
+        document.getElementById("fa").className += " fa-5x";
+       };
+
+
+
+
+      });
+    });
+
+    /**************
         FancyBox
      */
     $(".fancybox").fancybox();
