@@ -435,7 +435,6 @@ h1,h2,h3,h4,h5,h6 {
 
 /**/
 .half {
-		margin-top:15px;
 		width:50%;
 		float:left;
 }
@@ -601,7 +600,7 @@ rgba(0,0,0,0.035) url(http://tenthtin.com/host-img/random/effect_2.png);
 @media only screen {
 	#Footer {
 			display:table-cell;
-		
+
 	}
 
 	#Footer #copy {
@@ -683,7 +682,7 @@ rgba(0,0,0,0.035) url(http://tenthtin.com/host-img/random/effect_2.png);
 	********/
 
 	.half {
-			margin-top:0;
+
 			width:100%;
 	}
 
@@ -721,6 +720,36 @@ rgba(0,0,0,0.035) url(http://tenthtin.com/host-img/random/effect_2.png);
 			font-size:14px;
 			height:30px;
 			line-height:30px;
+	}
+
+	#cloud li:nth-child(4n) {
+			font-size:0.8em;
+			background-color:#999;
+	}
+
+	#cloud li:nth-child(8n + 1) {
+			font-size:.6em;
+			background-color:#165;
+	}
+
+	#cloud li:nth-child(3n + 2) {
+			font-size:.8em;
+			background-color:#963;
+	}
+
+	#cloud li:nth-child(4n + 2) {
+			font-size:1.1em;
+			background-color:#369;
+	}
+
+	#cloud li:nth-child(6n + 3) {
+			font-size:1.4em;
+			background-color:#619;
+	}
+
+	#cloud li:nth-child(13n - 12) {
+			font-size:1.8em;
+			background-color:#933;
 	}
 
 	/********

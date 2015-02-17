@@ -12,35 +12,37 @@ $(document).ready(function() {
         }, 600);
         return false;
     });
-    $('.nav_home').click(function() {
-        $('html, body').animate({
-            scrollTop: $(".link_home").offset().top
-        }, 2000);
-    });
-    $('.nav_services').click(function() {
-        $('html, body').animate({
-            scrollTop: $(".link_services").offset().top -
-                150
-        }, 2000);
-    });
-    $('.nav_skills').click(function() {
-        $('html, body').animate({
-            scrollTop: $(".link_skills").offset().top -
-                180
-        }, 2000);
-    });
-    $('.nav_about').click(function() {
-        $('html, body').animate({
-            scrollTop: $(".link_about").offset().top -
-                180
-        }, 2000);
-    });
-    $('.nav_contact').click(function() {
-        $('html, body').animate({
-            scrollTop: $(".link_contact").offset().top -
-                100
-        }, 2000);
-    });
+    if($(window).width() > 880) {
+      $('.nav_home').click(function() {
+          $('html, body').animate({
+              scrollTop: $(".link_home").offset().top
+          }, 2000);
+      });
+      $('.nav_services').click(function() {
+          $('html, body').animate({
+              scrollTop: $(".link_services").offset().top -
+                  150
+          }, 2000);
+      });
+      $('.nav_skills').click(function() {
+          $('html, body').animate({
+              scrollTop: $(".link_skills").offset().top -
+                  180
+          }, 2000);
+      });
+      $('.nav_about').click(function() {
+          $('html, body').animate({
+              scrollTop: $(".link_about").offset().top -
+                  180
+          }, 2000);
+      });
+      $('.nav_contact').click(function() {
+          $('html, body').animate({
+              scrollTop: $(".link_contact").offset().top -
+                  100
+          }, 2000);
+      });
+    }
     /**************
         Icon resize & Disable Skills for mobile
      */
