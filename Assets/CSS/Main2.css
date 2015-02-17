@@ -204,6 +204,10 @@ h1,h2,h3,h4,h5,h6 {
 		border-bottom:1px solid #000
 }
 
+#W {
+	width:100%;
+}
+
 #Right {
 		width:760px;
 		float:right;
@@ -618,6 +622,10 @@ rgba(0,0,0,0.035) url(http://tenthtin.com/host-img/random/effect_2.png);
 			width:auto;
 	}
 
+	#Right {
+		width:auto;
+	}
+
 	.copy2 {
 			display:inline;
 	}
@@ -628,9 +636,11 @@ rgba(0,0,0,0.035) url(http://tenthtin.com/host-img/random/effect_2.png);
 
 
 	.copy {
-
-
 			margin: 0 auto;
+	}
+
+	#scroll {
+		display:none;
 	}
 
 	#PageHeading {
@@ -665,6 +675,43 @@ rgba(0,0,0,0.035) url(http://tenthtin.com/host-img/random/effect_2.png);
 	}
 
 	/********
+	****ABOUT SECTION MOBILE****
+	********/
+
+	#img p {
+		width:auto;
+	}
+
+	#img p a {
+		display: inline;
+	}
+
+	#img p a img {
+		margin:1px;
+			padding:2px;
+			width:40%;
+	}
+
+
+	#Left {
+			width:100%;
+			text-align:center;
+	}
+
+
+	#Right {
+			width:auto;
+			border: none;
+	}
+
+	#Right p {
+			margin: 25px 15px;
+			padding: 10px 5px;
+
+	}
+
+
+	/********
 	****SERVICES SECTION MOBILE****
 	********/
 	.services_block h3 {
@@ -696,6 +743,7 @@ rgba(0,0,0,0.035) url(http://tenthtin.com/host-img/random/effect_2.png);
 			height:50px;
 	}
 
+
 	.services_block h3 {
 			font-size:10px;
 			padding:6px 0;
@@ -708,11 +756,18 @@ rgba(0,0,0,0.035) url(http://tenthtin.com/host-img/random/effect_2.png);
 
 
 
+		/********
+		****ABOUT SECTION MOBILE****
+		********/
 
+		#img p a {
+			display: block;
+			width:auto;
+		}
 
+		#img p a img {
+				width:60%;
+		}
 
-/*******
-	****ABOUT SECTION - MOBILE****
-	********/
 
 }
