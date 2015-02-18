@@ -25,6 +25,7 @@ body {
 
 #construction {
 	position: fixed;
+	top: 50px;
 	z-index:1;
 }
 
@@ -67,7 +68,7 @@ body {
 
 .PageHeading {
 		height:auto;
-		padding:33px;
+		padding:11px;
 		border-bottom:1px solid #000;
 		background-color:rgba(0,0,0,0.6)
 }
@@ -839,7 +840,7 @@ rgba(0,0,0,0.035) url(http://tenthtin.com/host-img/random/effect_2.png);
 
 	#Footer {
 			border-top:1px solid #000;
-			height:50px;
+			height:20px;
 	}
 
 

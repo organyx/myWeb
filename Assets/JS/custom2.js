@@ -87,6 +87,44 @@ $(document).ready(function() {
     /**************
         Sticky nav bar
      */
+/*
+     $(function() {
+    // Stick the #nav to the top of the window
+    var nav = $('#NavBar');
+    var navHomeY = nav.offset().top;
+    var isFixed = false;
+    var $w = $(window);
+    $w.scroll(function() {
+      if($(window).width() >= 880) {
+        var scrollTop = $w.scrollTop();
+        var shouldBeFixed = scrollTop > navHomeY;
+        if (shouldBeFixed && !isFixed) {
+            if($(window).width() < 478) {
+              nav.css({
+                  position: 'fixed',
+                  top: 0,
+                  left: nav.offset().left,
+                  width: nav.width()
+              });
+            }
+            else {
+              nav.css({
+                  position: 'fixed',
+                  top: 0
+              });
+            }
+            isFixed = true;
+        }
+        else if (!shouldBeFixed && isFixed)
+        {
+            nav.css({
+                position: 'static'
+            });
+            isFixed = false;
+        }
+      }
+    });
+});*/
      /*
     $(function() {
       // only on descktop
