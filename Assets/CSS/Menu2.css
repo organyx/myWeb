@@ -80,13 +80,13 @@ nav ul li:hover a{
 @media screen and (max-width: 478px)
 {
 	#NavBar {
-		height: 120px;
+		height: 180px;
 	}
 
 	nav ul li {
 		float:left;
-		height:20px;
-		line-height:20px;
+		height:30px;
+		line-height:30px;
 		font-size:13px;
 	}
 }

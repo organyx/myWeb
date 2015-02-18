@@ -53,10 +53,10 @@ $(document).ready(function() {
 
         //Disable Skills for mobile
         if ($window.width() < 500) {
-          document.getElementById("skills").className += " off";
+          document.getElementById("knowledge").className += " off";
        }else{
-         document.getElementById("skills").className =
-         document.getElementById("skills").className.replace
+         document.getElementById("knowledge").className =
+         document.getElementById("knowledge").className.replace
          ( /(?:^|\s)off(?!\S)/g , '' );
         };
 
