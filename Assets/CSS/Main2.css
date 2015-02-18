@@ -442,6 +442,7 @@ h1,h2,h3,h4,h5,h6 {
 
 /**/
 .half {
+	padding-top:15px;
 		width:50%;
 		float:left;
 }
@@ -553,7 +554,7 @@ rgba(0,0,0,0.035) url(http://tenthtin.com/host-img/random/effect_2.png);
 }
 
 .inner:before {
-		content:'';
+
 		display:inline-block;
 		height:100%;
 		vertical-align:middle;
@@ -694,7 +695,6 @@ rgba(0,0,0,0.035) url(http://tenthtin.com/host-img/random/effect_2.png);
 	********/
 
 	.half {
-
 			width:100%;
 	}
 
