@@ -87,32 +87,39 @@ $(document).ready(function() {
     /**************
         Sticky nav bar
      */
+
+     $(window).on('load resize orientationchange orientationChanged', function() {
+       var stickyMenu = $('#primary_nav').offset().top;
+       var w = $(window);
+
+       w.scroll(function(){
+         if(jQuery(window).width() > 880){
+           if( w.scrollTop() > stickyMenu ) {
+               $('#NavBar').css({position: 'fixed', top: '0px'});
+           } else {
+               $('#NavBar').css({position: 'static', top: '0px'});
+           }
+         }
+       });
+     });
 /*
-     $(function() {
+     $(window).on('load resize orientationchange orientationChanged', function(event) {
     // Stick the #nav to the top of the window
     var nav = $('#NavBar');
     var navHomeY = nav.offset().top;
     var isFixed = false;
     var $w = $(window);
     $w.scroll(function() {
-      if($(window).width() >= 880) {
+      if($(window).width() >= 820) {
         var scrollTop = $w.scrollTop();
         var shouldBeFixed = scrollTop > navHomeY;
         if (shouldBeFixed && !isFixed) {
-            if($(window).width() < 478) {
-              nav.css({
-                  position: 'fixed',
-                  top: 0,
-                  left: nav.offset().left,
-                  width: nav.width()
-              });
-            }
-            else {
-              nav.css({
-                  position: 'fixed',
-                  top: 0
-              });
-            }
+            nav.css({
+                position: 'fixed',
+                top: 0,
+                left: nav.offset().left,
+                width: nav.width()
+            });
             isFixed = true;
         }
         else if (!shouldBeFixed && isFixed)
@@ -122,6 +129,9 @@ $(document).ready(function() {
             });
             isFixed = false;
         }
+      }
+      else {
+
       }
     });
 });*/
