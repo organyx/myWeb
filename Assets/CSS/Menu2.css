@@ -36,7 +36,7 @@ nav ul li {
 	color:#fff;
 }
 
-nav ul li a {
+nav ul li a, nav ul li a:active, nav ul li a:link, nav ul li a:visited {
 	text-decoration:none;
 	color:#fff;
 }
