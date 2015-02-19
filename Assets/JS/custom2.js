@@ -60,23 +60,6 @@ $(document).ready(function() {
          ( /(?:^|\s)off(?!\S)/g , '' );
         };
 
-
-        //Icon resize
-       if ($window.width() < 768) {
-         document.getElementById("fa").className =
-         document.getElementById("fa").className.replace
-         ( /(?:^|\s)fa-5x(?!\S)/g , '' );
-         document.getElementById("fa").className += " fa-2x";
-      }else{
-        document.getElementById("fa").className =
-        document.getElementById("fa").className.replace
-        ( /(?:^|\s)fa-2x(?!\S)/g , '' );
-        document.getElementById("fa").className += " fa-5x";
-       };
-
-
-
-
       });
     });
 

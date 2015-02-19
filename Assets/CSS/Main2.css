@@ -9,6 +9,7 @@ body {
 #Holder {
 		width:980px;
 		min-width:320px;
+		max-width:980px;
 		height:auto;
 		margin-left:auto;
 		margin-right:auto;
@@ -20,6 +21,7 @@ body {
 		height:135px;
 		background-image:url(../IMG/functional/logo.png);
 		background-repeat:no-repeat;
+		max-width:980px;
 		margin-bottom:11px
 }
 
@@ -30,6 +32,7 @@ body {
 }
 
 #Content {
+		max-width:980px;
 		height:auto;
 		clear:both;
 		overflow:auto;
@@ -48,6 +51,7 @@ body {
 }
 
 #contentMain {
+		max-width:980px;
 		width:auto;
 		height:auto;
 		padding-top:0;
@@ -67,6 +71,7 @@ body {
 }
 
 .PageHeading {
+		max-width:980px;
 		height:auto;
 		padding:11px;
 		border-bottom:1px solid #000;
@@ -185,6 +190,7 @@ h1,h2,h3,h4,h5,h6 {
 -----------------------------------------------------------------------
 */
 #About {
+		max-width:980px;
 		float:left;
 		width:100%;
 		margin-left:auto;
@@ -321,6 +327,11 @@ h1,h2,h3,h4,h5,h6 {
 ---------------------------- SERVICES SECTION STYLES --------------------
 -----------------------------------------------------------------------
 */
+
+#services {
+		max-width:980px;
+}
+
 .services_block {
 		width:25%;
 		float:left
@@ -363,6 +374,11 @@ h1,h2,h3,h4,h5,h6 {
 ---------------------------- SKILLS SECTION STYLES --------------------
 -----------------------------------------------------------------------
 */
+
+#skills {
+	max-width:980px;
+}
+
 .skillbar {
 		font-family:'Open Sans','sans-serif';
 		position:relative;
