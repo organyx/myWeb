@@ -1,102 +1,84 @@
 /* CSS Document */
+
 #NavBar {
-	height: 60px;
-	background-color: rgb(13, 13, 13);
-	z-index: 1;
+  height: 60px;
+  background-color: rgb(13, 13, 13);
+  z-index: 1;
 }
-
 #NavBarMobile {
-	display:none;
+  display: none;
 }
-
 .container {
-	width:980px;
-	margin-left:auto;
-	margin-right:auto;
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 .active {
-	background-color: #666;
-	color: blue;
+  background-color: #666;
+  color: blue;
 }
-
 nav ul {
-	margin:0;
-	padding:0;
+  margin: 0;
+  padding: 0;
 }
-
 nav ul li {
-	list-style-type:none;
-	float:left;
-	display:block;
-	width:150px;
-	height:60px;
-	text-align:center;
-	line-height:55px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size:17px;
-	color:#fff;
+  list-style-type: none;
+  float: left;
+  display: block;
+  width: 150px;
+  height: 60px;
+  text-align: center;
+  line-height: 55px;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  color: #fff;
 }
-
 nav ul li a, nav ul li a:active, nav ul li a:link, nav ul li a:visited {
-	text-decoration:none;
-	color:#fff;
+  text-decoration: none;
+  color: #fff;
 }
-
 nav ul li:hover {
-	background-color:rgb(242,242,242);
-	color: #000;
-	cursor:pointer;
+  background-color: rgb(242, 242, 242);
+  color: #000;
+  cursor: pointer;
 }
-
-nav ul li:hover a{
-	display:block;
-	color:#000;
-	text-decoration:none;
+nav ul li:hover a {
+  display: block;
+  color: #000;
+  text-decoration: none;
 }
-
-
-@media screen and (max-width: 880px)
-{
-
-	#NavBar {
-		display:none;
-	}
-
-	#NavBarMobile {
-		display:block;
-		background-color: rgb(13, 13, 13);
-		height: 240px;
-		position:relative;
-		z-index: 1;
-	}
-
-	.container {
-		width:auto;
-		padding: 0;
-	}
-
-	nav ul li {
-		float:left;
-		width:100%;
-		height:40px;
-		line-height:40px;
-		font-size:15px;
-		text-align:center;
-	}
-
+@media screen and (max-width: 880px) {
+  #NavBar {
+    display: none;
+  }
+  #NavBarMobile {
+    display: block;
+    background-color: rgb(13, 13, 13);
+    height: 240px;
+    position: relative;
+    z-index: 1;
+  }
+  .container {
+    width: auto;
+    padding: 0;
+  }
+  nav ul li {
+    float: left;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    text-align: center;
+  }
 }
-
-@media screen and (max-width: 478px)
-{
-	#NavBarMobile {
-		height: 180px;
-	}
-
-	nav ul li {
-		float:left;
-		height:30px;
-		line-height:30px;
-		font-size:13px;
-	}
+@media screen and (max-width: 478px) {
+  #NavBarMobile {
+    height: 180px;
+  }
+  nav ul li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+  }
 }
